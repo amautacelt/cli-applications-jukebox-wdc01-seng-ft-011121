@@ -53,7 +53,6 @@ end
 
 def run(songs)
   methods = ["help", "list", "play", "exit"]
-  help
   puts "Please enter a command:"
   input = gets.strip
 
