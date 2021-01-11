@@ -20,11 +20,13 @@ def help
   puts "- exit : exits this program"
 end
 
+
 def list(songs)
   songs.each_with_index do |song, track|
     puts "#{track + 1}. #{song}"
   end
 end
+
 
 def play(songs)
   puts "Please enter a song name or number:"
@@ -43,9 +45,11 @@ def play(songs)
   end
 end
 
+
 def exit_jukebox
   puts "Goodbye!"
 end
+
 
 def run(songs)
   methods = ["help", "list", "play", "exit"]
